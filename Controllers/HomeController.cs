@@ -11,9 +11,6 @@ using WebMedia.DAL.DataContext;
     {
         public ActionResult Index()
         {
-            Product product = new Product("Chess", "Board Game", 10);
-            ProductDC pdc = new ProductDC();
-            pdc.AddProduct(product);
             return View();
         }
 
